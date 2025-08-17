@@ -5,6 +5,7 @@ import Questionnaire from './components/Questionnaire';
 import Results from './components/Results';
 import { SKILLS } from './constants';
 import type { SkillScores, AppState } from './types';
+import './index.css';
 
 const App: React.FC = () => {
   const [appState, setAppState] = useState<AppState>('intro');
