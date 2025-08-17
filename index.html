@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ori: Skills Profile Visualizer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 1. Add the Babel "translator" script -->
+    <script src="https://unpkg.com/@babel/standalone@7.24.0/babel.min.js"></script>
   <script type="importmap">
 {
   "imports": {
@@ -20,6 +22,7 @@
 </head>
   <body class="bg-slate-50">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- 2. Tell Babel to translate your script -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="/index.tsx"></script>
   </body>
 </html>
