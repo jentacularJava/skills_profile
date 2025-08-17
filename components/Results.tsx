@@ -24,7 +24,7 @@ const Results: React.FC<ResultsProps> = ({ scores, onStartOver }) => {
         <RadarChartComponent data={chartData} />
       </div>
       <p className="text-slate-500 text-sm mb-6 max-w-md mx-auto">
-        Note: Your results are not saved. Please save a copy if you wish to keep them, as refreshing or leaving the page will clear your profile.
+        Note: Your results are not saved. Please screenshot or print to save a copy if you wish to keep your results, as refreshing or leaving the page will clear your profile.
       </p>
       <button
         onClick={onStartOver}
