@@ -23,7 +23,7 @@ const Questionnaire: React.FC<QuestionnaireProps> = ({ scores, setScores, onSubm
       <h1 className="text-3xl font-bold text-slate-800 mb-2 text-center">
         Skills Self-Assessment
       </h1>
-      <p className="text-slate-500 mb-8 text-center">Rate each skill from 0 (area for growth) to 10 (significant strength).</p>
+      <p className="text-slate-500 mb-8 text-center">Indicate your level of skill for each area, from 0 (less skilled) to 10 (highly skilled).</p>
       <div className="space-y-8">
         {SKILLS.map(skill => (
           <div key={skill.name}>

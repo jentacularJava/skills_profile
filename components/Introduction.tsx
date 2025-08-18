@@ -20,7 +20,7 @@ const Introduction: React.FC<IntroductionProps> = ({ onStart }) => {
         Unfold your unique skill profile.
       </p>
       <p className="text-slate-500 max-w-2xl mx-auto mb-8">
-        This tool helps you visualize your strengths and identify opportunities for growth. Whether you're a student, parent, or teacher, understanding a skills profile can foster better communication and targeted development.
+        This tool helps you explore and appreciate your unique skills. Whether you're a student, parent, or teacher, understanding your skills profile can support self-awareness, confidence, and more compassionate interactions.      
       </p>
       <button
         onClick={onStart}
