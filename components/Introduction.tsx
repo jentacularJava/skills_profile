@@ -17,7 +17,7 @@ const Introduction: React.FC<IntroductionProps> = ({ onStart }) => {
         Ori
       </h1>
       <p className="text-slate-600 max-w-2xl mx-auto mb-2 text-xl font-medium">
-        Unfold your unique skill profile.
+        Unfold your unique skills profile.
       </p>
       <p className="text-slate-500 max-w-2xl mx-auto mb-8">
         This tool helps you explore and appreciate your unique skills. Whether you're a student, parent, or teacher, understanding your skills profile can support self-awareness, confidence, and more compassionate interactions.      
