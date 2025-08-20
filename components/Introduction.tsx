@@ -13,14 +13,19 @@ const Introduction: React.FC<IntroductionProps> = ({ onStart }) => {
           <Shapes className="w-12 h-12 text-purple-600" />
         </div>
       </div>
-      <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-        Ori
-      </h1>
+      <div className="flex items-center justify-center gap-3 mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold text-slate-800">
+          Ori
+        </h1>
+        <span className="bg-orange-100 text-orange-600 text-xs font-semibold px-2 py-1 rounded-full uppercase tracking-wide">
+          Beta
+        </span>
+      </div>
       <p className="text-slate-600 max-w-2xl mx-auto mb-2 text-xl font-medium">
         Unfold your unique skills profile.
       </p>
       <p className="text-slate-500 max-w-2xl mx-auto mb-8">
-        This tool helps you explore and appreciate your unique skills. Whether you're a student, parent, or teacher, understanding your skills profile can support self-awareness, confidence, and more compassionate interactions.      
+        This tool helps you explore and reflect on your unique skills. Whether you're a student, parent, or teacher, understanding your skills profile can support self-awareness and more compassionate interactions.
       </p>
       <button
         onClick={onStart}
