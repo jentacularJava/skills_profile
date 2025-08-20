@@ -12,7 +12,7 @@ const CustomTick = (props: any) => {
   
   // Simple viewport-based sizing using CSS clamp() logic
   const vw = window.innerWidth;
-  const fontSize = Math.max(8, Math.min(14, vw * 0.02)); // clamp(8px, 2vw, 12px)
+  const fontSize = Math.max(9.5, Math.min(16, vw * 0.012)); // clamp(9.5px, 1.2vw, 16px)
   const maxChars = Math.max(8, Math.min(15, vw * 0.012)); // Simpler char-based wrapping
   
   // Basic text wrapping by character count (simpler than width calculation)
